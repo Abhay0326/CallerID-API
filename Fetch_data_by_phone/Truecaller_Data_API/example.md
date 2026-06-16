@@ -1,4 +1,4 @@
-# AdvanceCaller-API
+# TruecallerData-API
 This api is provided via `RapidAPI-website`.
 
 It provides two api endpoints.
