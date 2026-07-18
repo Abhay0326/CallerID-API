@@ -1,11 +1,15 @@
 import requests
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 url = "https://advancecaller.p.rapidapi.com/api/v1/search"
 
-querystring = {"code":"91","number":"9811860631"}
+querystring = {"code":"91","number":"9971604367"}
 
 headers = {
-	"x-rapidapi-key": "4ca22833eemshf1fa94132fa310fp1ae05ajsn25cf82f09c85",
+	"x-rapidapi-key": os.getenv("RAPID-API-KEY"),
 	"x-rapidapi-host": "advancecaller.p.rapidapi.com",
 	"Content-Type": "application/json"
 }
